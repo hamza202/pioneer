@@ -731,7 +731,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-10 col-md-11 ml-auto">
-                        <div class="owl-carousel owl-theme" data-items="3" data-lg-items="2" data-md-items="2"
+                        <div class="owl-carousel owl-theme" data-items="3" data-hover="true" data-lg-items="2" data-md-items="2"
                              data-sm-items="1" data-autoplay="true">
                             <div class="item">
                                 <div class="post style-2">
@@ -749,8 +749,7 @@
                                         <div class="post-title">
                                             <h4 class="text-theme">Company Brochure</h4>
                                         </div>
-                                        <p>Consequat dolor sit amet, consectetur adipiscing elit. Maecenas lobortis quam
-                                            id lectus aliquet euismod. Ut sagittis…</p>
+
                                     </div>
                                 </div>
                             </div>
@@ -770,12 +769,28 @@
                                         <div class="post-title">
                                             <h4 class="text-theme">(DAI-PMDP)-Pioneers letter</h4>
                                         </div>
-                                        <p>Consequat dolor sit amet, consectetur adipiscing elit. Maecenas lobortis quam
-                                            id lectus aliquet euismod. Ut sagittis…</p>
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="item">
+                                <div class="post style-2">
+                                    <div class="post-image">
+                                        <img class="img-fluid h-100 w-100" src="images/blog/04.jpg" alt="">
+                                    </div>
+                                    <div class="post-desc"><a data-pdf="Brochure_Pioneers" class="post-categories" href="#exampleModal"
+                                                              data-toggle="modal" data-target="#exampleModal">Show
+                                        pdf</a>
+                                        <div class="post-meta">
+                                            <ul class="list-inline">
+                                                <li><i class="la la-calendar mr-1"></i> 23 Jan, 2019</li>
+                                            </ul>
+                                        </div>
+                                        <div class="post-title">
+                                            <h4 class="text-theme">Brochure Pioneers</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -940,11 +955,15 @@
 
 <!-- inject js end -->
 <script>
-    $(".post a.post-categories").on("click" , function () {
-       let pdf_src = $(this).attr('data-pdf');
-       $('#exampleModal iframe').attr('src' , 'https://docs.google.com/viewerng/viewer?url=https://pioneers.netlify.com/images/'+ pdf_src +'.pdf&embedded=true')
-
+    $( document ).ready(function() {
+        $(".post a.post-categories").on("click" , function () {
+            let pdf_src = $(this).attr('data-pdf');
+            let modal_title = $(this).parent().find('.post-title h4').text();
+            $('#exampleModal iframe').attr('src' , 'https://docs.google.com/viewerng/viewer?url=https://pioneers.netlify.com/images/'+ pdf_src +'.pdf&embedded=true');
+            $('#exampleModalLabel').text(modal_title)
+        });
     });
+
 </script>
 </body>
 
