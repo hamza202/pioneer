@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46b74209-6205-4256-81c5-4ce6e514d723" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/CompanyProfile-May-2011.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="823" column="49" lean-forward="true" selection-start-line="823" selection-start-column="49" selection-end-line="823" selection-end-column="49" />
+            <state relative-caret-position="228">
+              <caret line="277" column="250" selection-start-line="277" selection-start-column="250" selection-end-line="277" selection-end-column="250" />
             </state>
           </provider>
         </entry>
@@ -119,15 +118,15 @@
       <option name="presentableId" value="Default" />
       <updated>1562416532864</updated>
       <workItem from="1562416533943" duration="6179000" />
-      <workItem from="1562461291485" duration="2107000" />
+      <workItem from="1562461291485" duration="2960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8286000" />
+    <option name="totallyTimeSpent" value="9139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
@@ -157,8 +156,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="823" column="49" lean-forward="true" selection-start-line="823" selection-start-column="49" selection-end-line="823" selection-end-column="49" />
+        <state relative-caret-position="228">
+          <caret line="277" column="250" selection-start-line="277" selection-start-column="250" selection-end-line="277" selection-end-column="250" />
         </state>
       </provider>
     </entry>
